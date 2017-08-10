@@ -35263,7 +35263,7 @@
 	    path: '/config',
 	    getComponent: function getComponent(location, callback) {
 	      if (_Auth2.default.isUserAuthenticated()) {
-	        callback(null, _ProjectsPage2.default);
+	        callback(null, _ConfigPage2.default);
 	      } else {
 	        callback(null, _LoginPage2.default);
 	      }
