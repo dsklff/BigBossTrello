@@ -35265,7 +35265,7 @@
 	      if (_Auth2.default.isUserAuthenticated()) {
 	        callback(null, _ConfigPage2.default);
 	      } else {
-	        callback(null, _HomePage2.default);
+	        callback(null, _LoginPage2.default);
 	      }
 	    }
 	  }, {
@@ -35274,7 +35274,7 @@
 	      if (_Auth2.default.isUserAuthenticated()) {
 	        callback(null, _ProjectsPage2.default);
 	      } else {
-	        callback(null, _HomePage2.default);
+	        callback(null, _LoginPage2.default);
 	      }
 	    }
 	  }, {
@@ -35537,11 +35537,6 @@
 	                  _reactRouter.Link,
 	                  { to: '/login' },
 	                  '\u0412\u043E\u0439\u0442\u0438'
-	                ),
-	                _react2.default.createElement(
-	                  _reactRouter.Link,
-	                  { className: 'middleLink', to: '/signup' },
-	                  '\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F'
 	                )
 	              )
 	            )
@@ -59645,17 +59640,6 @@
 	          { className: 'btn info forForm', style: { padding: "10px 35px" }, type: 'submit' },
 	          '\u0412\u043E\u0439\u0442\u0438'
 	        )
-	      ),
-	      _react2.default.createElement(
-	        'span',
-	        { className: 'accountSpan' },
-	        '\u041D\u0435\u0442 \u0430\u043A\u043A\u0430\u0443\u043D\u0442\u0430? ',
-	        _react2.default.createElement(
-	          _reactRouter.Link,
-	          { to: '/signup' },
-	          '\u0421\u043E\u0437\u0434\u0430\u0439\u0442\u0435.'
-	        ),
-	        '.'
 	      )
 	    )
 	  );

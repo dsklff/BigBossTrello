@@ -18,7 +18,7 @@ const routes = {
         if (Auth.isUserAuthenticated()) {
           callback(null, ConfigPage);
         } else {
-          callback(null, HomePage);
+          callback(null, LoginPage);
         }
       }
     },
@@ -29,7 +29,7 @@ const routes = {
         if (Auth.isUserAuthenticated()) {
           callback(null, ProjectsPage);
         } else {
-          callback(null, HomePage);
+          callback(null, LoginPage);
         }
       }
     },

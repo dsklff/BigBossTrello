@@ -46,7 +46,7 @@ const LoginForm = ({
         <button className="btn info forForm" style={{padding: "10px 35px"}} type="submit">Войти</button>
       </div>
 
-      <span className ="accountSpan">Нет аккаунта? <Link to={'/signup'} >Создайте.</Link>.</span>
+     
     </form>
   </div>
 );

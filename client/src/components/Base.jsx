@@ -126,7 +126,7 @@ return (
     <button className="dropbtn"><img src={require('../../../public/img/more.png')} className="downdrop" /></button>
     <div className="dropdown-content">
           <Link to = "/login">Войти</Link>
-          <Link className="middleLink" to = "/signup">Регистрация</Link>
+          
           
     </div>
       </div>
