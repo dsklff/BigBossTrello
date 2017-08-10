@@ -16,7 +16,7 @@ const routes = {
       path: '/config',
       getComponent: (location, callback) => {
         if (Auth.isUserAuthenticated()) {
-          callback(null, ConfigPage);
+          callback(null, ProjectsPage);
         } else {
           callback(null, LoginPage);
         }
