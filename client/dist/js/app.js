@@ -59496,7 +59496,7 @@
 	          });
 
 	          _Auth2.default.authenticateUser(res.data.token);
-	          _this2.context.router.replace('/config');
+	          _this2.context.router.replace('/');
 	        }
 	      }).catch(function (error) {
 	        if (error.response) {

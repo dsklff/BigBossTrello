@@ -66,7 +66,7 @@ class LoginPage extends React.Component {
           });
           
           Auth.authenticateUser(res.data.token);
-          this.context.router.replace('/config');
+          this.context.router.replace('/');
         }
       })
         .catch(error => {
